@@ -1,10 +1,15 @@
 # -*- coding:utf-8 -*-
 
 class Solution(object):
-    def cal_month_and_year_package(self, pay,ss):
+    def cal_month_and_year_package(self, pay, ss):
         """
-        :type s: str
-        :rtype: int
+        Args:
+            pay: float
+                每月工资所得.
+            ss: float
+                每月社保等缴费总扣款. 
+        Returns:
+            a json body from the url.
         """
         def cal_month(income,sumtaxin,taxal,ss = 5641.9):
             income = income - 5000 - ss
