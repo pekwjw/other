@@ -1,3 +1,9 @@
+# json_zhongwen_write.py
+文件记录两种json.dumps中文的办法；
+method1() ：通过__future__引入python新特性实现；
+method2() ：通过chardet 检测字符串编码，然后修改编码格式进行实现；
+参考文章：https://blog.csdn.net/u014431852/article/details/53058951
+
 # package_cal_2019.py
 
 文件根据2019年税率，在给定每月收入及社保扣除款之后，可以计算每月随后所得，公积金所得，税后包含公积金所得，同时计算年累计所得和交税情况；一目了然；
