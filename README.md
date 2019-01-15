@@ -3,9 +3,9 @@
 文件根据2019年税率，在给定每月收入及社保扣除款之后，可以计算每月随后所得，公积金所得，税后包含公积金所得，同时计算年累计所得和交税情况；一目了然；
 
 e.g.：月所得20000，每月五险一金扣除3000元；
-调用示例：
-a = Solution()
-a.cal_month_and_year_package(20000,3000)
+调用示例：\n
+a = Solution() \n
+a.cal_month_and_year_package(20000,3000) \n
 
 输出：
 month: 1 ,tax: 360.00 ,real_income: 16640.00 ,add_house: 19620.00 ,sum: 16640.00, sum_house: 19620.00
