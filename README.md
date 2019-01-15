@@ -1,8 +1,8 @@
 # json_zhongwen_write.py
-文件记录两种json.dumps中文的办法；
-method1() ：通过__future__引入python新特性实现；
-method2() ：通过chardet 检测字符串编码，然后修改编码格式进行实现；
-参考文章：https://blog.csdn.net/u014431852/article/details/53058951
+文件记录两种json.dumps中文的办法：  
+    method1() ：通过__future__引入python新特性实现；  
+    method2() ：通过chardet 检测字符串编码，然后修改编码格式进行实现；  
+    参考文章：https://blog.csdn.net/u014431852/article/details/53058951  
 
 # package_cal_2019.py
 
