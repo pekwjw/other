@@ -1,3 +1,10 @@
+# [daynum_calc.py](https://github.com/scuwjw/other/blob/master/daynum_calc.py)
+计算两个日期之间的天数；
+
+eq：
+  input：'20030302','20030303'，
+  output：1
+
 # [json_zhongwen_write.py](https://github.com/scuwjw/other/blob/master/json_zhongwen_write.py)
 文件记录两种json.dumps中文的办法：  
 method1() ：通过__future__引入python新特性实现；  
